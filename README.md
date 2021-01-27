@@ -4,7 +4,7 @@ Learning Frontend Applications Tech Track CMD 2020/2021
 
 # Link to React app
 
-[Carpark React visualisation]()
+[Carpark React visualisation](https://mbergevoet.github.io/frontend-applications/)
 
 # Installation
 
@@ -14,7 +14,7 @@ Learning Frontend Applications Tech Track CMD 2020/2021
 
 **installing dependencies**
 
-``npm install`
+`npm install`
 
 # License
 
