@@ -18,3 +18,11 @@
             })
             .attr('r', '0.4px')
 }
+
+// function updateOne(){
+//   const carparks = d3.selectAll('.carpark').remove()
+//   const searchTerm = "363"
+//   const selectedPoints = geoPointsArray.filter(item => item.areamanagerid == searchTerm)
+//   drawCarParks(selectedPoints)
+//   console.log(selectedPoints)
+// }

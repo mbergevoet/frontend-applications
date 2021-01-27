@@ -3,7 +3,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <div style={headerStyle}>
+    <div style={headerStyle} className="gradient">
       <h1>{"Parkeer Tracker"}</h1>
     </div>
     
@@ -11,9 +11,10 @@ function Header() {
 }
 
 const headerStyle = {
-  padding: '2rem 20%',
+  padding: '2rem 10%',
   fontSize: '1.5rem',
-  backgroundColor: '#fcfcfc'
+  color: 'white',
+  // backgroundColor: '#fcfcfc'
 }
 
 export default Header;
