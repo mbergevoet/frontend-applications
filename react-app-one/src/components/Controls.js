@@ -1,14 +1,17 @@
 import React from 'react';
-// { useState, useEffect, useRef}
+// import { useEffect, useRef, useState } from 'react';
 
-function Controls() {
+function Controls(props) {
+  const { buttonNames } = props;
   return (
     <div>
-      <button>{'change one'}</button>
-      <button>{'change two'}</button>
-      <button>{'change three'}</button>
+      <button>{'Zoom uit'}</button>
+      {buttonNames.map((d) => (
+				<button key={d}>
+					{d.name}
+				</button>
+			))} 
     </div>
-    
   );
 }
 export default Controls;
